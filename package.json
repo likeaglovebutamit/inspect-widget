@@ -1,0 +1,19 @@
+{
+  "name": "inspect-widget",
+  "version": "1.0.0",
+  "description": "A responsive widget for inspecting scanned documents or detailed images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likeaglovebutamit/inspect-widget.git"
+  },
+  "author": "Amit Nehra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likeaglovebutamit/inspect-widget/issues"
+  },
+  "homepage": "https://github.com/likeaglovebutamit/inspect-widget#readme"
+}
