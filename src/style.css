@@ -1,0 +1,23 @@
+
+    .documentViewer {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+    .documentViewer #document {
+        min-height: 440px;
+        min-width: 340px;
+        max-width: 80%;
+        max-height: 80%;
+        background-repeat: no-repeat;
+        background-image: url('document2-hr.jpeg');
+        background-image: url('armor.jpg');
+        background-image: url('artefact.jpg');
+        background-size: cover;
+        background-position: 50% 50%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: scale(1) translate3d(-50%, -50%, 0);
+        transition: transform .25s linear;
+    }
