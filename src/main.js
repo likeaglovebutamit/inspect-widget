@@ -1,8 +1,14 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import style from 'style.css'
+import './style.css'
+
+
 
 class InspectWidget extends Component {
+
+    constructor(props) {
+        super(props);
+    }
 
     componentDidMount() {
       
@@ -45,15 +51,14 @@ class InspectWidget extends Component {
 
     render() {
       return (
-        <div class={style.documentViewer}>
-          <div class={style.document}></div>
+        <div id="documentViewer">
+          <div id="document"></div>
         </div>
       )
     }
 }
-
 window.onload = () => {
-    var mountPoint = document.createElement("div");
-    document.body.appendChild(mountPoint);
-    ReactDOM.render(<InspectWidget/>, mountPoint);
+    // var mountPoint = document.createElement("div");
+    // document.body.appendChild(mountPoint);
+    ReactDOM.render(<InspectWidget/>, document.body);
 }

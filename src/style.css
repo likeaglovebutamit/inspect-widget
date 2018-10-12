@@ -1,21 +1,25 @@
+    body {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+    }
 
-    .documentViewer {
+    #documentViewer {
         height: 100%;
         width: 100%;
         position: relative;
     }
-    .documentViewer #document {
-        min-height: 440px;
-        min-width: 340px;
-        max-width: 80%;
-        max-height: 80%;
-        background-repeat: no-repeat;
-        background-image: url('document2-hr.jpeg');
-        background-image: url('armor.jpg');
-        background-image: url('artefact.jpg');
-        background-size: cover;
-        background-position: 50% 50%;
+    
+    #documentViewer #document {
         position: relative;
+        height: 80%;
+        width: 80%;
+        background-repeat: no-repeat;
+        background-image: url('artefact.jpg');
+        background-size: contain;
         top: 50%;
         left: 50%;
         transform: scale(1) translate3d(-50%, -50%, 0);
