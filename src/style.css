@@ -20,6 +20,7 @@
         background-repeat: no-repeat;
         background-image: url('artefact.jpg');
         background-size: contain;
+        background-position: 50% 50%;
         top: 50%;
         left: 50%;
         transform: scale(1) translate3d(-50%, -50%, 0);
