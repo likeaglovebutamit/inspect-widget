@@ -58,7 +58,7 @@ class InspectWidget extends Component {
     }
 }
 window.onload = () => {
-    // var mountPoint = document.createElement("div");
-    // document.body.appendChild(mountPoint);
+    var mountPoint = document.createElement("div");
+    document.body.appendChild(mountPoint);
     ReactDOM.render(<InspectWidget/>, document.body);
 }
